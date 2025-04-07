@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>ros2_pinocchio_demo</name>
+  <version>0.1.0</version>
+  <description>ROS 2 node demonstrating Pinocchio integration</description>
+  
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <depend>rclcpp</depend>         
+  <depend>std_msgs</depend>      
+  <depend>urdf</depend>           
+  
+  <!-- Pinocchio dependencies -->
+  <build_depend>pinocchio</build_depend>
+  <exec_depend>pinocchio</exec_depend>
+</package>
